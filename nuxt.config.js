@@ -21,6 +21,12 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    /**
+     * Vendor Isomorphic Fetch
+     */
+    vendor: [
+      'isomorphic-fetch'
+     ], 
     /*
     ** Run ESLint on save
     */
