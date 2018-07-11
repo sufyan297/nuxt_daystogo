@@ -23,7 +23,7 @@
       </div>
       <br/>
       <div>
-        <a target="_blank" class="button--grey" @click="onTap">
+        <a href="javascript:void(0)" class="button--grey" @click="onTap">
           Tap me! {{this.count}}
         </a>
       </div>
@@ -34,13 +34,38 @@
         <h4 class="subtitle">{{name}}</h4>
       </div>
 
+      <!-- FlexGrid -->
+      <div class="columns is-multiline">
+        <div class="column is-one-quarter">
+          <p class="has-background-primary">1</p>
+        </div>
+        <div class="column is-one-quarter">
+          <p class="has-background-info">2</p>
+        </div>
+        <div class="column is-one-quarter">
+          <p class="has-background-link">3</p>
+        </div>
+        <div class="column is-one-quarter">
+          <p class="has-background-success">4</p>
+        </div>
 
-      <div class="columns">
-        <div class="column">1</div>
-        <div class="column">2</div>
-        <div class="column">3</div>
-        <div class="column">4</div>
-        <div class="column">5</div>
+        <div class="column is-half">
+          <p class="has-background-link">5</p>
+        </div>
+        <div class="column is-one-quarter">
+          <p class="has-background-success">6</p>
+        </div>
+        <div class="column is-one-quarter">
+          <p class="has-background-success">7</p>
+        </div>
+
+        <div class="column is-one-quarter">
+          <p class="has-background-info">8</p>
+        </div>
+        <div class="column">
+          <p class="has-background-primary">Auto</p>
+        </div>
+
       </div>
 
     </div>
