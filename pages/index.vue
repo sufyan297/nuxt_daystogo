@@ -33,6 +33,16 @@
         <input type="text" v-model="name"/>
         <h4 class="subtitle">{{name}}</h4>
       </div>
+
+
+      <div class="columns">
+        <div class="column">1</div>
+        <div class="column">2</div>
+        <div class="column">3</div>
+        <div class="column">4</div>
+        <div class="column">5</div>
+      </div>
+
     </div>
     
   </section>

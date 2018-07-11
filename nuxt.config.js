@@ -13,6 +13,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    // Load a Node.js module directly (here it's a Sass file)
+    '@/assets/css/bulma.min.css'
+  ],
   /*
   ** Customize the progress bar color
   */
